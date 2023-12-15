@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: bash -c "/app/run_project.sh"
+    ports:
+      - "8000:8000"
+
